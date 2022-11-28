@@ -42,6 +42,11 @@ export const constantRoutes = [
     name: 'novel',
     component: () => import('@/views/novel')
   },
+  // {
+  //   path: '/header',
+  //   name: 'header',
+  //   component: () => import('@/views/novel/Header.vue')
+  // },
   {
     path: '/login',
     component: () => import('@/views/login'),
