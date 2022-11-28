@@ -1,7 +1,7 @@
 <template>
   <div class="topMain">
     <div class="box_center cf">
-      <router-link :to="{ name: 'novel' }" class="logo fl"><img :src="logo" alt="我的小说" /></router-link>
+      <router-link :to="{ name: 'novel' }" class="logo fl"><img :src="logo" alt="小说精品屋" /></router-link>
       <div class="searchBar fl">
         <div class="search cf">
           <input v-model="keyword" type="text" placeholder="书名、作者、关键字" class="s_int" v-on:keyup.enter="searchByK" />
