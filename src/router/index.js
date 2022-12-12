@@ -40,7 +40,7 @@ export const constantRoutes = [
   {
     path: '/novel',
     name: 'novel',
-    component: () => import('@/views/novel')
+    component: () => import('@/views/novel/index.vue')
   },
   // {
   //   path: '/header',
