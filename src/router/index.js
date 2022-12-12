@@ -39,8 +39,8 @@ export const constantRoutes = [
   },
   {
     path: '/novel',
-    name: 'novel',
-    component: () => import('@/views/novel/index.vue')
+    component: () => import('@/views/novel/index.vue'),
+    hidden: true
   },
   // {
   //   path: '/header',
