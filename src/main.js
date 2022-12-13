@@ -44,8 +44,6 @@ import DictTag from '@/components/DictTag'
 
 import '@/assets/styles/base.css'
 import '@/assets/styles/main.css'
-import VueParticles from 'vue-particles'  
-Vue.use(VueParticles)  
 
 const app = createApp(App)
 
