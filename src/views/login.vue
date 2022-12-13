@@ -46,7 +46,7 @@
           :loading="loading"
           size="large"
           type="primary"
-          style="width:100%;"
+          style="width:100%;background-color: rgba(0, 0, 0, 0.3);" plain
           @click.prevent="handleLogin"
         >
           <span v-if="!loading">登 录</span>
@@ -164,6 +164,7 @@ getCookie();
 .login-form {
   border-radius: 6px;
   background: #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
   width: 400px;
   padding: 25px 25px 5px 25px;
   .el-input {
