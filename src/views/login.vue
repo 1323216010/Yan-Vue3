@@ -152,7 +152,7 @@ getCookie();
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-image: url("../assets/images/original.jpg");
+  background-image: url("../assets/images/bg.png");
   background-size: cover;
 }
 .title {
