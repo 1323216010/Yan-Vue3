@@ -39,6 +39,7 @@ export const constantRoutes = [
   },
   {
     path: '/novel',
+    name: 'novel',
     component: () => import('@/views/novel'),
     hidden: true
   },
