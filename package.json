@@ -25,6 +25,7 @@
     "js-cookie": "3.0.1",
     "jsencrypt": "3.3.1",
     "nprogress": "0.2.0",
+    "particles.vue3": "^2.6.0",
     "pinia": "2.0.22",
     "vue": "3.2.45",
     "vue-cropper": "1.0.3",

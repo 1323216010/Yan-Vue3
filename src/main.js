@@ -45,7 +45,11 @@ import DictTag from '@/components/DictTag'
 import '@/assets/styles/base.css'
 import '@/assets/styles/main.css'
 
+import Particles from 'particles.vue3'
+
 const app = createApp(App)
+
+app.use(Particles)
 
 // 全局方法挂载
 app.config.globalProperties.useDict = useDict
