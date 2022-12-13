@@ -1,19 +1,25 @@
 <template>
-  <div>
+  <div class="link">
 
+    <el-link class="box" style="font-size: 2em;" @click="toFileReview">小说阅读</el-link>
   </div>
 </template>
 
 <script>
-import { reactive, toRefs, onMounted } from "vue";
-import { useRouter, useRoute } from "vue-router";
 
 export default {
-  name: "Navbar",
-  setup() {
-    const route = useRoute();
-    const router = useRouter();
+name: "Login",
+data() {
+  return {
+    user: {},
 
-  },
-};
+  }
+},
+methods: {
+  toFileReview() {
+    this.$router.push('/novel')
+  }
+
+}
+}
 </script>
